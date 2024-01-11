@@ -1,0 +1,146 @@
+.Navbar-main{
+  background-color: blueviolet;
+  margin: 0px;
+  padding: 0px;
+  height: 80px;
+}
+.Navbar-items{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  display:flex;
+  /* justify-content: end; */
+  flex-direction: row;
+  /* width: fit-content; */
+  justify-content: space-between;
+  margin: 0 auto;
+
+  background-color: rgb(11, 16, 26); 
+  padding-left:0px ;
+}
+.Navbar-items li{
+  margin-left: 20px;
+  /* text-decoration: none; */
+  
+  
+}
+.Navbar-items ul{
+  text-decoration: none;
+}
+.Navbar-items .items{
+  text-decoration: none;
+  color: #fff;
+}
+.Navbar-items :last-child{
+  align-items: end;
+}
+.cart-loco{
+  display: flex;
+  flex-direction: row;
+}
+li:hover{
+ font-size: larger;
+ font-weight: 400;
+}
+.nav-search{
+  display: flex;
+}
+.Navbar-items input{
+  margin-top: 2px;
+  height: 40px;
+  width:30vw;
+  text-align: center;
+  background-color: rgb(189, 183, 195);
+  color: #120f0f;
+  font-size: large;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+.Navbar-items button{
+  background-color: rgb(129, 106, 150);
+  color: #fff;
+  padding: auto;
+  margin-bottom:0px;
+  height: 46px;
+  margin-top: 3px;
+  border-bottom-right-radius:7px ;
+  border-top-right-radius: 7px;
+  
+}
+.home-container{
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  margin-right: 20px;
+  margin-left: 20px; */
+  height: min-content;
+
+}
+.cards{
+  background-color: rgb(194, 211, 221);
+  border-radius: 5%;
+  height: min-content;
+  margin: 30px;
+  
+  
+
+}
+.product{
+  display: flex;
+  justify-content: space-around;
+}
+.product-details{
+  border-width: 10px;
+  /* border-color: black; */
+  background-color: bisque;
+  border: 10px solid #000;
+  height: 290px;
+ }
+.specs{
+  margin-left: 50px;
+  border: 2px solid #3b0505;
+  border-radius: 20px;
+  
+} 
+.home{
+  justify-content: space-between;
+}
+.home-cmp{
+  margin: 3px;
+  width: max-content;
+}
+.home-cmp:hover{
+  /* background-color: rgb(62, 99, 99); */
+  /* size:  300rem; */
+  box-shadow: 2px 2px 2px 4px rgba(54, 48, 48, 0.4);
+}
+.cart-details{
+  /* background-color: aquamarine; */
+  margin-top: 10px;
+  border: 2px solid #4e3f3f;
+  margin-right: 10vw;
+  margin-left: 10vw;
+  border-radius: 10px;
+
+}
+.Addsub button :hover{
+  color: bisque;
+}
+.relatedbycat{
+  display: flex;
+  max-height:min-content;
+  overflow-x: auto;
+  width: 100%;
+  white-space: nowrap;
+
+}
+.relatedbycat::-webkit-scrollbar{
+  width: 0px;
+}
+.relatedbycat .relatedbycatsub{
+  width: 400px;
+  line-height: 120px;
+  text-align: center;
+} 
